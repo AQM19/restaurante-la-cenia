@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
+import FooterComponent from "@/shared/ui/footer/FooterComponent";
+import HeaderComponent from "@/shared/ui/header/HeaderComponent";
 
 export const metadata: Metadata = {
     title: "Restaurante La Ceña",
-    description: "",
+    description: "Web para el restaurante y posada la ceña de novales",
     authors: [
         {
             name: 'Aarón',
@@ -13,14 +15,15 @@ export const metadata: Metadata = {
 
 export default function PathnameLayout({ children, }: Readonly<{ children: React.ReactNode; }>) {
     return (
-        <main>
-            {/* <HeaderComponent className={`col-span-7 sticky top-0 flex justify-between items-center px-10 py-2 ${buttonMenuPosition}`} /> */}
+        <main className="min-h-screen grid grid-rows-[auto_1fr_auto]">
+            
+            <HeaderComponent className="bg-red-500"></HeaderComponent>
+
             <section>
                 {children}
             </section>
-            {/* <AsideComponent className={`${asidePosition} col-span-1 row-start-2`} /> */}
-            {/* <SideMenu /> */}
-            {/* <FooterComponent className={`col-span-7 p-10`} /> */}
+            
+            <FooterComponent className="bg-red-500"></FooterComponent>
         </main>
     );
 }

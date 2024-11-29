@@ -1,23 +1,9 @@
-import type { Metadata } from "next";
+import { ReactNode } from 'react';
 
-export const metadata: Metadata = {
-    title: "Fuck Offendiditos",
-    description: "Página de humor",
-    authors: [
-        {
-            name: 'Aarón',
-            url: 'https://aaronquintanalmartin.com/es'
-        }
-    ]
+type Props = {
+    children: ReactNode;
 };
 
-export default function RootLayout({ children, }: Readonly<{ children: React.ReactNode; }>) {
-    console.log('HOLA')
-    return (
-        <html lang="es">
-            <body>
-                {children}
-            </body>
-        </html>
-    );
+export default function RootLayout({ children }: Props) {
+    return children;
 }
