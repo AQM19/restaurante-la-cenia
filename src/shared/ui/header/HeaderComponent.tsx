@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
 
 interface Props {
     className?: string;
@@ -9,12 +8,12 @@ const HeaderComponent = ({ className }: Props) => {
     return (
         <header className={`${className}`}>
 
-            <Image
-                src={'./header.jpg'}
+HOLA
+
+            {/* <Image
+                src={'./images/header.webp'}
                 alt={'holoo'}
-                width={30}
-                height={30}
-            ></Image>
+            ></Image> */}
 
         </header>
     )
