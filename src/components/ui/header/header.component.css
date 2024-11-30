@@ -1,0 +1,15 @@
+.cenia__parallax-header {
+    background-image: url('/images/header.webp');
+    min-height: 100dvh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cenia__nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: red;
+}

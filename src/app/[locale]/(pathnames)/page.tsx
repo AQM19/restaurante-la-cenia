@@ -2,7 +2,7 @@ import React from 'react'
 
 const PathnamePage = () => {
   return (
-    <div>PathnamePage</div>
+    <div className='h-screen'>PathnamePage</div>
   )
 }
 

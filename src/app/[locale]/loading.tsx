@@ -1,4 +1,4 @@
-import BallTriangle from '@/shared/ui/svg/BallTriangle'
+import BallTriangle from '@/components/ui/svg/BallTriangle'
 import React from 'react'
 
 const Loading = () => {
