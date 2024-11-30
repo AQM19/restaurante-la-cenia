@@ -8,3 +8,4 @@ export * from './ui/footer/FooterComponent';
 
 export * from './pages/presentation/PresentationPage';
 export * from './pages/owner/OwnerPage';
+export * from './pages/menu/MenuPage';
