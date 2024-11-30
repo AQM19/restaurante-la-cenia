@@ -1,7 +1,6 @@
 import React from 'react'
 import LogoComponent from '../logo/LogoComponent'
 import { LiaFacebookF, LiaInstagram, LiaTripadvisor } from 'react-icons/lia'
-import { TbBrandBooking } from 'react-icons/tb'
 import { useTranslations } from 'next-intl'
 import Link from 'next/link'
 import { Link as I18nLink } from '@/i18n/routing';
