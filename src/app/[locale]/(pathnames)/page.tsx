@@ -1,9 +1,9 @@
 import React from 'react'
 
-const PathnamePage = () => {
+const LandingPage = () => {
   return (
     <div>PathnamePage</div>
   )
 }
 
-export default PathnamePage
+export default LandingPage
