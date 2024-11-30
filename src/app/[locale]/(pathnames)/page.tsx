@@ -1,8 +1,11 @@
+import PresentationPage from '@/components/pages/presentation/PresentationPage'
 import React from 'react'
 
 const LandingPage = () => {
   return (
-    <div>PathnamePage</div>
+    <section>
+      <PresentationPage />
+    </section>
   )
 }
 

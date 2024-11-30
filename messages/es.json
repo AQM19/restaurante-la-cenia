@@ -10,5 +10,9 @@
         "kitchen": "Cocina",
         "hostel": "Posada",
         "apartments": "Apartamentos"
+    },
+    "Presentation": {
+        "title": "Presentacion",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales, metus in maximus sodales, nisi justo sagittis arcu, vel tempus arcu diam non lorem. Sed feugiat convallis augue, id bibendum dui varius vitae. Vivamus ullamcorper velit at felis facilisis, vitae faucibus tortor lobortis. Etiam vel lacus dapibus, sagittis nisl vel, aliquam velit. Nunc ipsum purus, posuere bibendum facilisis sit amet, vulputate sed magna. Aenean ipsum justo, egestas id luctus sit amet, scelerisque mollis arcu. Sed consequat diam eu enim blandit blandit. Integer sit amet scelerisque arcu, eu gravida justo. Quisque fermentum magna id odio ultricies accumsan. Fusce ut eros vel nibh tempor auctor bibendum ut enim. Integer id placerat elit. Quisque in purus eu ipsum rhoncus porttitor. Pellentesque metus nunc, volutpat ac iaculis eu, consequat in velit."
     }
 }
