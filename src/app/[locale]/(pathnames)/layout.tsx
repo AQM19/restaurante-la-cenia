@@ -19,9 +19,7 @@ export default function PathnameLayout({ children, }: Readonly<{ children: React
 
             <HeaderComponent />
 
-            <section>
-                {children}
-            </section>
+            {children}
 
             <FooterComponent />
 

@@ -8,7 +8,7 @@ const LogoComponent = () => {
 
     return (
         <Link href={'/'} >
-            <h1 className='text-2xl font-bold text-neutral-50'>
+            <h1 className='text-2xl font-bold text-neutral-900'>
                 {t('title')}
             </h1>
         </Link>

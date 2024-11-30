@@ -1,5 +1,14 @@
 {
     "HomePage": {
-        "title": "Restaurante La Ceña"
+        "title": "Restaurante La Ceña",
+        "welcome": "Bienvenido",
+        "address": "Barrio San Roque, 163c, 39526 Novales, Cantabria",
+        "book": "Reserva"
+    },
+    "Navigation": {
+        "home": "Inicio",
+        "kitchen": "Cocina",
+        "hostel": "Posada",
+        "apartments": "Apartamentos"
     }
 }
