@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import FooterComponent from "@/components/ui/footer/FooterComponent";
 import HeaderComponent from "@/components/ui/header/HeaderComponent";
+import SidebarComponent from "@/components/ui/sidebar/SidebarComponent";
 
 export const metadata: Metadata = {
     title: "Restaurante La Ceña",
@@ -18,6 +19,8 @@ export default function PathnameLayout({ children, }: Readonly<{ children: React
         <main className="min-h-screen grid grid-rows-[auto_1fr_auto] overflow-x-hidden">
 
             <HeaderComponent />
+
+            <SidebarComponent />
 
             {children}
 

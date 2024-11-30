@@ -14,7 +14,7 @@ const HeaderComponent = () => {
             <NavBarComponent />
 
             <div className='flex flex-col gap-3 items-center justify-center'>
-                <h1 className='text-8xl text-neutral-50 font-bold'>{t('welcome')}</h1>
+                <h1 className='text-6xl text-neutral-50 font-bold'>{t('welcome')}</h1>
 
                 <p className='text-neutral-50'>{t('address')}</p>
 
