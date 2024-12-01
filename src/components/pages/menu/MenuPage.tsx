@@ -4,7 +4,7 @@ import { Link } from '@/i18n/routing';
 
 const MenuPage = () => {
     return (
-        <article className='w-4/5 m-auto flex flex-col sm:flex-row items-center justify-evenly'>
+        <article className='w-4/5 m-auto flex flex-col-reverse sm:flex-row items-center justify-evenly py-6 sm:py-0'>
 
             <div className='flex flex-col items-center justify-center w-full sm:w-1/2 gap-4'>
                 <h2 className='text-2xl font-semibold uppercase'>

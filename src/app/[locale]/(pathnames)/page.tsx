@@ -1,3 +1,4 @@
+import GeopositionPage from '@/components/pages/geoposition/GeopositionPage'
 import MenuPage from '@/components/pages/menu/MenuPage'
 import OwnerPage from '@/components/pages/owner/OwnerPage'
 import PresentationPage from '@/components/pages/presentation/PresentationPage'
@@ -9,6 +10,7 @@ const LandingPage = () => {
       <PresentationPage />
       <OwnerPage />
       <MenuPage />
+      <GeopositionPage />
     </section>
   )
 }
