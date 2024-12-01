@@ -10,6 +10,10 @@ export const routing = defineRouting({
         '/book': {
             en: '/book',
             es: '/reserva'
+        },
+        '/menu': {
+            en: '/menu',
+            es: '/carta'
         }
     }
 });

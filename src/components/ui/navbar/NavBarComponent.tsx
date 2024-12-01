@@ -32,23 +32,16 @@ const NavBarComponent = () => {
 
                 <I18nLink
                     className={`p-2 text-sm text-neutral-900 font-semibold hover:scale-105 transition-all uppercase`}
-                    href={'/'}
+                    href={'/menu'}
                 >
-                    {t('kitchen')}
+                    {t('menu')}
                 </I18nLink>
 
                 <I18nLink
                     className={`p-2 text-sm text-neutral-900 font-semibold hover:scale-105 transition-all uppercase`}
-                    href={'/'}
+                    href={'/book'}
                 >
-                    {t('hostel')}
-                </I18nLink>
-
-                <I18nLink
-                    className={`p-2 text-sm text-neutral-900 font-semibold hover:scale-105 transition-all uppercase`}
-                    href={'/'}
-                >
-                    {t('apartments')}
+                    {t('reserve')}
                 </I18nLink>
 
             </nav>

@@ -7,9 +7,8 @@
     },
     "Navigation": {
         "home": "Home",
-        "kitchen": "Kitchen",
-        "hostel": "Hostel",
-        "apartments": "Apartments"
+        "menu": "Menu",
+        "reserve": "Reserve "
     },
     "Presentation": {
         "title": "Presentation",

@@ -7,9 +7,8 @@
     },
     "Navigation": {
         "home": "Inicio",
-        "kitchen": "Cocina",
-        "hostel": "Posada",
-        "apartments": "Apartamentos"
+        "menu": "Carta",
+        "reserve": "Reserva"
     },
     "Presentation": {
         "title": "Presentacion",

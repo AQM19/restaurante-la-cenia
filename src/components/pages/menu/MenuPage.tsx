@@ -16,7 +16,7 @@ const MenuPage = () => {
                     Cras suscipit neque ut metus convallis, eu commodo magna tempus.
                 </p>
 
-                <Link href={'/'} className='border-2 border-neutral-50 py-4 px-8 text-xl text-neutral-50 font-semibold rounded-sm mt-10 uppercase'>
+                <Link href={'/menu'} className='border-2 border-neutral-50 py-4 px-8 text-xl text-neutral-50 font-semibold rounded-sm mt-10 uppercase'>
                     Carta
                 </Link>
             </div>
