@@ -6,9 +6,13 @@ export const routing = defineRouting({
     defaultLocale: 'es',
     localePrefix: 'as-needed',
     pathnames: {
-        '/': '/'
+        '/': '/',
+        '/book': {
+            en: '/book',
+            es: '/reserva'
+        }
     }
 });
 
-export const {Link, redirect, usePathname, useRouter, getPathname} =
-  createNavigation(routing);
+export const { Link, redirect, usePathname, useRouter, getPathname } =
+    createNavigation(routing);

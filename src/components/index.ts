@@ -5,6 +5,7 @@ export * from './ui/header/HeaderComponent';
 export * from './ui/navbar/NavBarComponent';
 export * from './ui/logo/LogoComponent';
 export * from './ui/footer/FooterComponent';
+export * from './ui/book-a-table-header/BookATableHeaderComponent';
 
 export * from './pages/presentation/PresentationPage';
 export * from './pages/owner/OwnerPage';
