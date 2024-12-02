@@ -2,7 +2,7 @@ import { MenuConfig } from '@/core/config/menu.config'
 import { useTranslations } from 'next-intl'
 import React from 'react'
 
-const page = () => {
+const MenuCardPage = () => {
 
     const t = useTranslations('Menu')
 
@@ -48,4 +48,4 @@ const page = () => {
     )
 }
 
-export default page
+export default MenuCardPage
