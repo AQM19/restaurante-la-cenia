@@ -1,6 +1,9 @@
+import { useTranslations } from 'next-intl'
 import React from 'react'
 
 const GeopositionPage = () => {
+
+    const t = useTranslations('Location');
     return (
         <article className='bg-orange-100 pt-6 sm:py-0'>
 
@@ -14,10 +17,10 @@ const GeopositionPage = () => {
 
                 <div className='grid grid-cols-[1.5fr_2fr] w-full sm:w-1/2 gap-2 px-2 sm:px-0 text-pretty'>
 
-                    <b className='text-right'>Estamos en</b> <span>Barrio San Roque, 163c, 39526 Novales, Cantabria</span>
-                    <b className='text-right'>Llámanos al</b> <span>+34 000 000 000</span>
-                    <b className='text-right'>Escribenos a</b> <span>info@gmail.com</span>
-                    <b className='text-right'>Estamos abiertos</b> <span>De lunes a domingo</span>
+                    <b className='text-right'>{t('we are in')}</b> <span>{t('address')}</span>
+                    <b className='text-right'>{t('call us to')}</b> <span>{t('telephone')}</span>
+                    <b className='text-right'>{t('write us to')}</b> <span>info@gmail.com</span>
+                    <b className='text-right'>{t('we are open')}</b> <span>{t('schedule')}</span>
 
                 </div>
 

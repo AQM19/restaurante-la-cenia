@@ -13,5 +13,37 @@
     "Presentation": {
         "title": "Presentacion",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales, metus in maximus sodales, nisi justo sagittis arcu, vel tempus arcu diam non lorem. Sed feugiat convallis augue, id bibendum dui varius vitae. Vivamus ullamcorper velit at felis facilisis, vitae faucibus tortor lobortis. Etiam vel lacus dapibus, sagittis nisl vel, aliquam velit. Nunc ipsum purus, posuere bibendum facilisis sit amet, vulputate sed magna. Aenean ipsum justo, egestas id luctus sit amet, scelerisque mollis arcu. Sed consequat diam eu enim blandit blandit. Integer sit amet scelerisque arcu, eu gravida justo. Quisque fermentum magna id odio ultricies accumsan. Fusce ut eros vel nibh tempor auctor bibendum ut enim. Integer id placerat elit. Quisque in purus eu ipsum rhoncus porttitor. Pellentesque metus nunc, volutpat ac iaculis eu, consequat in velit."
+    },
+    "Owner": {
+        "title": "El jefe",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec feugiat arcu. Cras suscipit neque ut metus convallis, eu commodo magna tempus. Fusce vel nibh at purus malesuada cursus. Nullam volutpat finibus volutpat. Pellentesque sollicitudin risus eu maximus eleifend. Maecenas porta dignissim arcu nec pulvinar. Sed auctor feugiat ipsum eu feugiat. Aliquam imperdiet auctor eleifend. Ut sed consequat quam, consectetur hendrerit neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin ornare et orci in ultrices. Fusce vitae justo sed lectus blandit ultricies nec in turpis."
+    },
+    "Menu": {
+        "title": "Menu",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec feugiat arcu. Cras suscipit neque ut metus convallis, eu commodo magna tempus.",
+        "button": "Carta",
+        "restaurant name": "Restaurante La Ceña",
+        "restaurant slogan": "Con limones de Novales"
+    },
+    "Location": {
+        "we are in": "Estamos en",
+        "call us to": "Llámanos al",
+        "write us to": "Escríbenos al",
+        "we are open": "Estamos abiertos",
+        "address": "Barrio San Roque, 163c, 39526 Novales, Cantabria",
+        "telephone": "+34 000 000 000",
+        "schedule": "De lunes a domingo"
+    },
+    "Book": {
+        "title": "Seserva una mesa",
+        "description": "You may make a reservation any time online or by calling (972) 650 9001 during our hours of operation:",
+        "opening hours": "Horas de apertura",
+        "Monday": "Lunes",
+        "Tuesday": "Martes",
+        "Wednesday": "Miercoles",
+        "Thursday": "Jueves",
+        "Friday": "Viernes",
+        "Saturday": "Sabado",
+        "Sunday": "Domingo"
     }
 }

@@ -3,7 +3,7 @@ import React from 'react'
 
 const Loading = () => {
     return (
-        <div className='h-full flex items-center justify-center'>
+        <div className='h-min-screen flex items-center justify-center'>
 
             <BallTriangle />
 

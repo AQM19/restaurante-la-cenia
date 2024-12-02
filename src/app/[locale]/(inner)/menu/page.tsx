@@ -1,7 +1,10 @@
 import { MenuConfig } from '@/core/config/menu.config'
+import { useTranslations } from 'next-intl'
 import React from 'react'
 
 const page = () => {
+
+    const t = useTranslations('Menu')
 
     return (
         <section className='flex flex-col p-6 items-center w-full bg-neutral-50 text-neutral-900'>
@@ -9,8 +12,8 @@ const page = () => {
             <div className="w-full max-w-3xl mx-auto bg-[#f8f5e9] rounded-md border-2">
 
                 <div className="text-center">
-                    <h3 className="text-4xl font-serif text-[#4a3f35]">Restaurante La Ceña</h3>
-                    <p className="text-sm italic text-[#7d6e5d]">Con limones de Novales</p>
+                    <h3 className="text-4xl font-serif text-[#4a3f35]">{t('restaurant name')}</h3>
+                    <p className="text-sm italic text-[#7d6e5d]">{t('restaurant slogan')}</p>
                 </div>
 
                 <article className='p-4'>
