@@ -1,3 +1,5 @@
+![alt text](./public/images/header.webp)
+
 # Restaurante La Ceña 🌮🍷
 
 Web de presentación del restaurante y la posada La Ceña.
@@ -60,12 +62,15 @@ Este proyecto está optimizado para ser desplegado en [Vercel](https://vercel.co
 - Realiza el despliegue directamente desde la plataforma.
 
 
-<!-- ---
+---
 
 ## 📷 Capturas de pantalla
-### 🌐 Vista principal
 
-### 📱 Vista móvil -->
+![web inicial responsive](./assets/responsive-web.png)
+
+![web inicial completa](./assets/go-full-page.png)
+
+![web del menu responsive](./assets//responsive-web-2.png)
 
 ---
 
